@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "myfont";
+    src: url(../Fonts/iranyekanwebmedium.2d4f96e5.woff);
+}
+*{
+    font-family: "myfont";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sign{
+    width: 395px;
+    height: 440px;
+    margin: 128px auto;
+    border: 1px solid rgb(222, 221, 221);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    position: relative;
+    .svg-logo{
+        position: absolute;
+        top: 32px;
+        right: calc(50% - 75px);
+    }
+    & h4{
+        font-size: 1.6rem;
+        position: absolute;
+        top: 105px;
+        right: 35px;
+    }
+    .text{
+        font-size: 1.1rem;
+        position: absolute;
+        top: 150px;
+        right: 30px;
+    }
+    .enter{
+        & input{
+            width: 330px;
+            height: 50px;
+            position: absolute;
+            top: 215px;
+            right: 30px;
+            outline: unset;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            border: 1px solid #17bfd3;
+    }
+    }
+    .entery{
+        & input{
+            width: 330px;
+            height: 50px;
+            background-color: #EF4056;
+            border: unset;
+            font-size: 1.4rem;
+            position: absolute;
+            top: 320px;
+            right: 30px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            color: whitesmoke;
+            }
+        }
+    .end{
+        font-size: 0.9rem;
+        position: absolute;
+        top: 390px;
+        right: 28px;
+        .tag{
+            color: #17bfd3;
+            text-decoration: none;
+        }
+    }
+}
